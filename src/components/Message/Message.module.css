@@ -1,0 +1,94 @@
+.conv-messages-container{
+    display: flex;
+    margin: 2rem;
+}
+
+.conv-messages-container--agent{
+    justify-content: flex-end;
+}
+
+.conv-messages-container--client{
+    justify-content: flex-start;
+}
+
+.btn-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,.4);
+    background: white;
+    overflow: hidden; /* Ensures the image stays within the rounded borders */
+}
+
+.btn-icon-image{
+    width: 5.5rem;
+}
+.message-icon-container{
+    order: 2;
+}
+.message-container{
+    display: inline-block;
+    margin: 1rem;
+    min-width: 45%;
+    max-width: 100%;
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+    word-wrap: break-word;
+    /* overflow: auto; */
+    border-radius: 15px;
+    box-shadow: 0 2px 5px #818181;
+    /* overflow: hidden; */
+    position: relative;
+}
+.message-container--client{
+    background-color: #fff;  
+    order: 3; 
+}
+
+.message-container--agent{
+    background-color: rgb(202, 225, 255); 
+    order: 1; 
+}
+
+.message-container--agent-theme--blue{
+    background-color: rgb(202, 225, 255); 
+}
+
+.message-text{
+    word-wrap: break-word;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+.message-time-container{
+    color: rgb(115, 115, 115) ;
+    position: absolute;
+    box-shadow: 0 2px 5px #818181;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 5px;
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+.message-time-container--agent{
+    right: -2rem; 
+}
+
+.message-time-container--client{
+    left: -2rem; 
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:0.4rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}

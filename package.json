@@ -1,0 +1,46 @@
+{
+  "name": "effective-web-chat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@fingerprintjs/fingerprintjs": "3.4.2",
+    "axios": "^1.7.7",
+    "cra-template": "1.2.0",
+    "crypto-js": "^4.2.0",
+    "emoji-mart": "^5.6.0",
+    "i18next": "^21.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^11.14.3",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.8.0"
+  },
+  "scripts": {
+    "start": "set PORT=3008 && react-scripts start",
+    "build": "set PORT=3008 && react-scripts build",
+    "test": "set PORT=3008 && react-scripts test",
+    "eject": "set PORT=3008 && react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

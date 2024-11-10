@@ -1,0 +1,6 @@
+.history-section{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    padding: 8px 4px;
+}

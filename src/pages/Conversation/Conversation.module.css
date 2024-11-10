@@ -1,0 +1,79 @@
+.conv-section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+/* All Messages container*/
+
+.conv-messages-container-main{
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Chat input */
+.conv-message-actions{
+    height: 10vh;
+    position: relative;
+}
+
+/* .emoji-modal-container{
+    height:  75vh;
+} */
+.new-message-input{
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    resize: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1.4rem;
+    padding: 1.2rem 6rem;
+}
+
+textarea.new-message-input{
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.emoji-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 8vh;
+    position: absolute;
+    left: 5px;
+    top:5px;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    background-color: white;
+}
+
+
+.emoji-icon{
+    font-size: 2.5rem;
+    color: rgb(99, 99, 99);
+}
+
+.send-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 8vh;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    background-color: white;
+}
+
+.send-icon{
+    font-size: 2.5rem;
+    color: rgb(99, 99, 99);
+}

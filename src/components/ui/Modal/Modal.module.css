@@ -1,0 +1,24 @@
+.modal-container{
+    display: inline-block;
+    position: relative;
+}
+
+.modal-section{
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    background-color: white;
+}
+
+.modal-top-right{
+    bottom:40px;
+    left: 0px;
+    z-index: 150;
+}
+
+/* @media(max-width:768px){
+    .modal-top-right{
+        bottom:80px;
+        left: -10px;
+    }
+} */

@@ -1,0 +1,27 @@
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg,rgb(209, 230, 255)  0%,rgba(255,255,255,1)  100%);
+    /* padding: 0rem 1rem; */
+    /* border-radius: 2rem; */
+    overflow: hidden;
+}
+
+.main-section{
+    /* margin: 5px 0; */
+    height: 68vh;
+    /* height: 100%; */
+    /* padding: 16px 8px; */
+}
+
+/* .main-section-minimized-header{
+    height: 74vh;
+} */
+
+.main-section-minimized-nav-and-header{
+    height: 78vh;
+}
+
