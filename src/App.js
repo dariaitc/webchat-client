@@ -25,8 +25,8 @@ function App() {
   // Init page settings
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
-    const companyId = urlParams.get('company') || '670f7b81da32b58985313506';
-    console.log('companyId', companyId)
+    const companyId = urlParams.get('company') || '67306bf0fa73f233b7c7e22d';
+
     const getCompanyDetails = async () => {
       const company = await getCompanyDetailsRequest(companyId)
       onInitCompany(company)
