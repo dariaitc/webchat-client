@@ -61,7 +61,7 @@
     height: 100%;
 }
 .navitem--selected-them--blue{
-    color: rgb(61, 149, 255);
+    color: #3873bb;
 
     /* background-color: rgb(176, 212, 255); */
 }
@@ -86,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(99, 99, 99);
+    color: rgb(64, 64, 64);
     font-size: 1.5rem;
     margin-left: 10px;
     font-weight: 600;

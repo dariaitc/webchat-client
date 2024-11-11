@@ -103,8 +103,8 @@ function Conversation() {
                 <div ref={messagesEndRef} />
             </div>
             <div className={styles['conv-message-actions']}>
-                <textarea onKeyDown={handleKeyDown} value={userInputValue} onChange={onUserInputHandler} className={styles['new-message-input']} />
-                <button className={styles['emoji-btn']} onClick={() => setShowEmojiModal(true)}>
+                <textarea aria-label="Enter your message here" onKeyDown={handleKeyDown} value={userInputValue} onChange={onUserInputHandler} className={styles['new-message-input']} />
+                <button aria-label="Select Emoji" className={styles['emoji-btn']} onClick={() => setShowEmojiModal(true)}>
                     <Modal className={`${styles['emoji-modal-container']}`} showModal={showEmojiModal} onToggel={(status) => setShowEmojiModal(status)} modalBtn={<BsEmojiSmile className={styles['emoji-icon']} />}>
                         <Picker
                             showSearch={false}
@@ -118,7 +118,7 @@ function Conversation() {
                     </Modal>
 
                 </button>
-                <button onClick={onSendMessageClickHandler} className={styles['send-btn']}>
+                <button aria-label="Send Message" onClick={onSendMessageClickHandler} className={styles['send-btn']}>
                     <BsSend className={styles['send-icon']} />
 
                 </button>

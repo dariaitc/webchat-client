@@ -2,9 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin: 0px 10px 10px 10px;
+    /* margin-bottom: 1rem; */
     /* margin: 0 4px 0 4px; */
     padding: 16px 10px;
+    /* max-width: 98%; */
+    /* min-width: 96%; */
     width: 100%;
     background-color: white;
     min-height: 80px;
@@ -35,6 +38,14 @@
     box-shadow: 1px 1px 2px 1px rgba(0,0,0,.4);
     background: white;
     overflow: hidden; /* Ensures the image stays within the rounded borders */
+}
+
+.navitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 0 10px 0 10px; */
 }
 
 .btn-icon-image{
